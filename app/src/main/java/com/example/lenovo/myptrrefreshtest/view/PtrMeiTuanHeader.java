@@ -20,6 +20,9 @@ import in.srain.cube.views.ptr.PtrUIHandler;
 import in.srain.cube.views.ptr.indicator.PtrIndicator;
 
 /**
+ *
+ * 美团下拉：
+ *
  * step0:下拉/准备下拉状态
  * step1:下拉->可刷新状态
  * step2:刷新状态

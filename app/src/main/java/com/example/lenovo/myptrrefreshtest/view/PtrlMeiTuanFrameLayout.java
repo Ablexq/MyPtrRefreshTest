@@ -24,8 +24,14 @@ public class PtrlMeiTuanFrameLayout extends PtrFrameLayout {
     }
 
     private void init() {
-        PtrMeiTuanHeader mHeaderView = new PtrMeiTuanHeader(getContext());
-        setHeaderView(mHeaderView);
-        addPtrUIHandler(mHeaderView);
+        //美团下拉头
+//        PtrMeiTuanHeader mHeaderView = new PtrMeiTuanHeader(getContext());
+//        setHeaderView(mHeaderView);
+//        addPtrUIHandler(mHeaderView);
+
+        //iOS版本QQ下拉头
+        WaterRefreshHeader waterRefreshHeader = new WaterRefreshHeader(getContext());
+        setHeaderView(waterRefreshHeader);
+        addPtrUIHandler(waterRefreshHeader);
     }
 }
